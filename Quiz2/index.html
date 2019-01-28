@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Quiz_2</title>
     <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="script/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="script/main.js"></script>
 </head>
 
 <body>
@@ -25,70 +27,20 @@
                 </div>
 
                 <!--SLIDER-->
-                <div class="image">
-                    <div class="event">Jan 26th</div>
-                    <img src="img/image.jpg">
-                    <button class="btn_green">Get Event Details</button>
-                </div>
-
-                <div class="image">
-                    <div class="event">Jan 26th</div>
-                    <img src="img/image2.jpg">
-                </div>
-
-                <div class="image">
-                    <div class="event">Jan 26th</div>
-                    <img src="img/image3.jpg">
-                </div>
-
-                <div class="image">
-                    <div class="event">Jan 26th</div>
-                    <img src="img/image4.jpg">
-                </div>
-
-                <div class="image">
-                    <div class="event">Jan 26th</div>
-                    <img src="img/image5.jpg">
-                </div>
-
-                <div class="arrows">
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)">❯</a>
+                <div id="slider">
+                    <div><img src="img/image.jpg" alt=""></div>
+                    <div><img src="img/image2.jpg" alt=""></div>
+                    <div><img src="img/image3.jpg" alt=""></div>
+                    <div><img src="img/image4.jpg" alt=""></div>
+                    <div><img src="img/image5.jpg" alt=""></div>
                 </div>
                 
-                
-                
-
-                <div class="title-container">
-                    <p id="title"></p>
-                </div>
-
-                <div class="images">
-                    <div class="column">
-                        <img class="img cursor" src="img/image.jpg" onclick="currentSlide(1)" alt="">
-                    </div>
-
-                    <div class="column">
-                        <img class="img cursor" src="img/image2.jpg" onclick="currentSlide(2)" alt="">
-                    </div>
-
-                    <div class="column">
-                        <img class="img cursor" src="img/image3.jpg" onclick="currentSlide(3)" alt="">
-                    </div>
-
-                    <div class="column">
-                        <img class="img cursor" src="img/image4.jpg" onclick="currentSlide(4)" alt="">
-                    </div>
-
-                    <div class="column">
-                        <img class="img cursor" src="img/image5.jpg" onclick="currentSlide(5)" alt="">
-                    </div>
-                </div>
+                <button class="btn_green">Get Event Details</button>
 
 
+                <!--End Slider-->
 
-
-                <div class="dates">
+                <div class="dates clearfix">
                     <div class="select">
                         <h2>Jan 26th</h2>
                         <p>ROCK to ICE Clinic - Ouray Ice Climbing Festival</p>
@@ -125,6 +77,6 @@
     
     
 
-<script src="script/main.js"></script>
+
 </body>
 </html>
